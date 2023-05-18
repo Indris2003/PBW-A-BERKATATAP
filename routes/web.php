@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
 Route::get('berkatatap', [berkatController::class, 'index'])->name('/');
-Route::get('berkatatap/menuutama', [berkatController::class, 'menu_utama']);
+Route::get('berkatatap/menuutama', [berkatController::class, 'menu_utama'])->name('berkatatap/menuutama');
 Route::get('berkatatap/login', [berkatController::class, 'login']);
 Route::get('berkatatap/login/register', [berkatController::class, 'register']);
 Route::get('berkatatap/menuutama/paket_atap', [berkatController::class, 'paket_atap'])->name('berkatatap/menuutama/paket_atap');

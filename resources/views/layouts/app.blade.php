@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('BERKAT ATAP', 'BERKAT ATAP') }}</title>
+    <title>{{ config('app.name', 'BERKAT ATAP') }}</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
