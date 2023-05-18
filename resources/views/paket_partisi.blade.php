@@ -16,7 +16,7 @@
     <main class="flex-shrink-0">
         <nav class="navbar navbar-expand-lg navbar-light py-3">
             <div class="container px-5">
-                <a class="navbar-brand" href="index.html"> <img src="{{ URL::to('/assets/images/rectangle 5.png') }}" alt="" id="img-nav"></a>
+                <a class="navbar-brand" href="{{ route('/') }}"> <img src="{{ URL::to('/assets/images/rectangle 5.png') }}" alt="" id="img-nav"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span

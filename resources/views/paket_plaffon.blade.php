@@ -16,7 +16,7 @@
     <main class="flex-shrink-0">
         <nav class="navbar navbar-expand-lg navbar-light py-3">
             <div class="container px-5">
-                <a class="navbar-brand" href="index.html"> <img src="{{ URL::to('/assets/images/rectangle 5.png') }}" alt="" id="img-nav"></a>
+                <a class="navbar-brand" href="{{ route('/') }}"> <img src="{{ URL::to('/assets/images/rectangle 5.png') }}" alt="" id="img-nav"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -36,15 +36,15 @@
             <div class="row">
                 <div class="col-sm-4">
                     <img src="{{ URL::to('/assets/images/atap001.jpg') }}" class="img-responsive" style="width:100%; margin:10px;" alt="Image">
-                    <a class="btn btn-outline-dark btn-lg px-5 py-2 fs-10 fw-bolder" href="A01">Paket P01</a>
+                    <a class="btn btn-outline-dark btn-lg px-5 py-2 fs-10 fw-bolder" href="{{ route('berkatatap/menuutama/paket_plaffon/P01') }}">Paket P01</a>
                 </div>
                 <div class="col-sm-4"> 
                     <img src="{{ URL::to('/assets/images/atap002.jpg') }}" class="img-responsive" style="width:100%; margin: 10px;" alt="Image">
-                    <a class="btn btn-outline-dark btn-lg px-5 py-2 fs-10 fw-bolder" href="A02">Paket P02</a>
+                    <a class="btn btn-outline-dark btn-lg px-5 py-2 fs-10 fw-bolder" href="{{ route('berkatatap/menuutama/paket_plaffon/P02') }}">Paket P02</a>
                 </div>
                 <div class="col-sm-4"> 
                     <img src="{{ URL::to('/assets/images/atap003.jpg') }}" class="img-responsive" style="width:100%; margin: 10px;" alt="Image">
-                    <a class="btn btn-outline-dark btn-lg px-5 py-2 fs-10 fw-bolder" href="A03">Paket P03</a>
+                    <a class="btn btn-outline-dark btn-lg px-5 py-2 fs-10 fw-bolder" href="{{ route('berkatatap/menuutama/paket_plaffon/P03') }}">Paket P03</a>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
     <main class="flex-shrink-0">
         <nav class="navbar navbar-expand-lg navbar-light py-3">
             <div class="container px-5">
-                <a class="navbar-brand" href="index.html"> <img src="{{ URL::to('/assets/images/rectangle 5.png') }}" alt="" id="img-nav"></a>
+                <a class="navbar-brand" href="{{ route('/') }}"> <img src="{{ URL::to('/assets/images/rectangle 5.png') }}" alt="" id="img-nav"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -28,7 +28,9 @@
                         <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
                         <form action="{{ route('logout') }}" method="POST">
     @csrf
-    <button type="submit" style="background-color: red; color: white; border-width: 0px;">Logout</button>
+    <button type="submit" style="background-color: red; color: white; border-width: 0px;">
+    <a href="{{ route('/') }}">Logout</a>
+    </button>
 </form>
 
 
@@ -47,7 +49,9 @@
                         terjangkau mulai
                         Rp.
                         200.000,00/Meter, wujudkan rumah impian anda dengan klik link dibawah.</p>
-                    <button type="button" class="btn text-white" id="btn-sub" style="width:80% ;">Lihat Lanjut</button>
+                    <button type="button" class="btn text-white" id="btn-sub" style="width:80% ;"><a href="{{ route('berkatatap/menuutama/paket_atap') }}" class="btn text-white" style="width: 80%">Lihat Lanjut</a></button>
+                    <!-- <a href="{{ route('berkatatap/menuutama/paket_atap') }}" class="btn text-white" style="width: 80%">Lihat Lanjut</a> -->
+
                 </div>
                 <div class="col-md-6 ">
                     <div id="carouselExample" class="carousel slide">
@@ -87,7 +91,7 @@
                             <div class="mb-1 text-muted"></div>
                             <p class="card-text mb-auto">Pemasangan Plaffon(pvc)/Gypsum dengan berbagai motif dan warna,
                                 kualitas dijamin dengan harga terjangkau.</p>
-                            <button type="button" id="btn-sub" class="btn text-white">Lihat Lanjut</button>
+                            <button type="button" id="btn-sub" class="btn text-white"><a href="{{ route('berkatatap/menuutama/paket_plaffon') }}" class="btn text-white" style="width: 80%">Lihat Lanjut</a></button>
                         </div>
                         <div class="col-auto">
                             <img class="bd-placeholder-img" src="{{ URL::to('/assets/images/plaffon.jpg') }}" width="250px" height="100%"
@@ -105,7 +109,7 @@
                             <div class="mb-1 text-muted"></div>
                             <p class="card-text mb-auto">Pemasangan Partisi(Sekat Ruang), dengan berbagai martial, mulai
                                 dari GRC, Gypsum, Dll; kualitas dijamin dengan harga terjangkau.</p>
-                            <button type="button" id="btn-sub" class="btn text-white">Lihat Lanjut</button>
+                            <button type="button" id="btn-sub" class="btn text-white"><a href="{{ route('berkatatap/menuutama/paket_partisi') }}" class="btn text-white" style="width: 80%">Lihat Lanjut</a></button>
                         </div>
                         <div class="col-auto">
                             <img class="bd-placeholder-img" src="{{ URL::to('/assets/images/grc.jpg') }}" width="250px" height="100%"
