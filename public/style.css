@@ -1,0 +1,179 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,0.3842787114845938) 2%, rgba(10,41,151,0.3982843137254902) 24%, rgba(0,108,255,0.3618697478991597) 85%);
+}
+.about section{
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.navbar{
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.nav-item :hover{
+    background:linear-gradient(90deg, rgba(2,0,36,0.3842787114845938) 2%, rgba(10,41,151,0.3982843137254902) 24%, rgba(0,108,255,0.3618697478991597) 85%);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+footer{
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.badge{
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+#plaffon{
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    border-radius: 80px;
+  
+}
+#atap1{
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+#partisi{
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+#btn-sub{
+    background: linear-gradient(90deg, rgba(2,0,36,0.3842787114845938) 2%, rgba(10,41,151,0.3982843137254902) 24%, rgba(0,108,255,0.3618697478991597) 85%);
+    margin:10px;
+    float: center;
+    width: 90%;
+}
+button{
+    background: linear-gradient(90deg, rgba(2,0,36,0.3842787114845938) 2%, rgba(10,41,151,0.3982843137254902) 24%, rgba(0,108,255,0.3618697478991597) 85%);
+    margin:10px;
+}
+#img-nav{
+    height: 8vh;
+    width: 12vh;
+}
+
+/* login mulai */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 14px;
+    
+
+  }
+  
+  .form-control::placeholder {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+  }
+  
+  .card {
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    padding-top: 50px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    margin-top: 10px; margin-bottom: 10px;
+    padding-left: 20px; padding-right: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+      max-width: 35%;
+    }
+  }
+  .btn-login {
+    font-size: 15px;
+    color: #FFFFFF;
+    border: 5px solid #FFF;
+    margin-top: 10px;
+    
+  }
+  /* login end */
+  
+  /* register */
+  
+  /* h1 {
+    text-decoration: underline;
+    text-align: center;
+    margin: 30px 0;
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+  } */
+  
+  .form-group-register {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+  }
+  
+  button[type="submit"] {
+    background: linear-gradient(336deg, rgba(39, 39, 232, 0.8), rgba(239, 239, 255, 0) 70.71%);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 0%;
+    margin-bottom: 20%;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="password"] {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    
+  }
+  
+  .card.a .container.a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15px;
+  }
+  /* register end */
+
